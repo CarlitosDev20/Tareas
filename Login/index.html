@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="form-wrapper sign-up">
+            <form action="">
+                <h2>Registrate</h2>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Nombre</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Apellido</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Dni</label>
+                </div>
+                <div class="input-group">
+                    <input type="password"  required>
+                    <label for="">Contraseña</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" required>
+                    <label for="">Telefono</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" required>
+                    <label for="">Correo</label>
+                </div>
+                <button type="submit" class="btn">Sign up</button>
+                <div class="sign-link">
+                    <p>¿Tienes una cuenta?<a href="#" class="signIn-link">Inicia Sesión</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-wrapper sign-in" id="form-wrapper sign-in">
+            <form action="">
+                <h2>Login</h2>
+                <div class="input-group">
+                    <input id="dni" type="text"  required>
+                    <label for="">Dni</label>
+                </div>
+                <div class="input-group">
+                    <input id="pass" type="password"  required>
+                    <label for="">Contraseña</label>
+                </div>
+                <div class="forgot-pass">
+                    <a href="recovery.html">Olvidaste la contraseña</a>
+                </div>
+                <button type="submit" onclick="window.location.href='password.html'" class="btn">Login</button>
+                <div class="sign-link">
+                    <p>¿No tienes una cuenta?<a href="#" class="signUp-link">Registrate</a></p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
